@@ -1,99 +1,118 @@
-# 🚀 xr-wahyuu.github.io
-
-Welcome to my personal GitHub Page!  
-I'm **Wahyu**, a passionate full-stack developer from Indonesia 🇮🇩  
-Building the web, one project at a time.
-
----
-
-## 🧑‍💻 Who Am I?
-
-- 🔥 Developer with a passion for building scalable, clean, and efficient systems
-- 💻 Full-stack Engineer with experience in frontend & backend development
-- 🏆 Top 5% contributor on GitHub (based on project activity & open-source impact)
-- 👨‍🎓 Self-taught with a strong foundation in computer science and modern web technologies
-- 🌏 Actively contributing to open-source & mentoring beginner devs
+<h1 align="center">👋 Hello, I'm Wahyu Sudrajad</h1>
+<p align="center">
+  <em>A Full Stack Developer passionate about building high-quality, scalable, and user-friendly web applications.</em><br>
+  <em>🌍 Based in Indonesia | ☕ Fueled by coffee | 💡 Driven by curiosity</em>
+</p>
 
 ---
 
-## 📊 Tech Stack & Tools
+## 🏆 My Skills & Technologies
 
-### Languages:
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+### 👨‍💻 Languages
+📝 TypeScript | JavaScript | Python | Java | Dart
 
-### Frameworks & Libraries:
-![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?logo=next.js&logoColor=white)
-![Express](https://img.shields.io/badge/Express.js-000000?logo=express&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?logo=tailwind-css&logoColor=white)
+### ⚛️ Frontend
+⚡ React | Next.js | Redux | Tailwind CSS | Material UI | Bootstrap
 
-### DevOps & Tools:
-![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=github-actions&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql&logoColor=white)
+### 🔧 Backend
+⚙️ Node.js | Express.js | FastAPI | Firebase | Socket.io
 
----
+### 🗃️ Databases
+💾 MongoDB | PostgreSQL | MySQL | Supabase
 
-## 🏅 Achievements
+### ☁️ Cloud & DevOps
+🐳 Docker | ☁️ AWS | Vercel | Netlify | Heroku | GitHub Actions
 
-- 🥈 **Ranked #2** Fullstack Developer in [local dev leaderboard/region] *(isi sesuai fakta atau lelucon santai 😄)*
-- 🥇 Built a web app that hit **10K+ users in 3 months**
-- 🌐 Featured on: [Product Hunt](https://www.producthunt.com/) & [Hashnode](https://hashnode.com/)
-- 🛠️ Contributor to 20+ open source projects on GitHub
-- 📣 Guest Speaker at local dev meetups: "Optimizing React Performance" & "Building APIs that Scale"
-- 🎖️ Completed 100DaysOfCode, 2023 cohort
-- 📜 Google Developer Certificate – *Fundamentals of Web Development* ✅
+### 💳 APIs & Integrations
+💳 Stripe | REST | GraphQL | WebSocket | OAuth
 
 ---
 
-## 📂 Featured Projects
+## 🌱 Currently Learning
 
-| Project | Description | Stack |
-|--------|-------------|--------|
-| [🔗 DevLinker](https://github.com/xr-wahyuu/devlinker) | Curated developer link manager & bookmark tool | React, MongoDB, Express |
-| [📊 API Insight](https://github.com/xr-wahyuu/api-monitor) | A REST API performance analyzer | Node.js, Chart.js, Docker |
-| [🎨 Portofolio v3](https://github.com/xr-wahyuu/portfolio-v3) | Third iteration of my personal website | Next.js, TailwindCSS |
-| [🧰 CLI Helper Tools](https://github.com/xr-wahyuu/cli-tools) | Custom CLI tools for daily dev use | Node.js, Shell Script |
-| [🌍 WeatherVis](https://github.com/xr-wahyuu/weathervis) | Weather forecast visualizer using OpenWeather API | Vanilla JS, Bootstrap |
-
-> 🔍 Explore more on my [GitHub repositories](https://github.com/xr-wahyuu?tab=repositories)
+- 🧠 Mastering **GraphQL** for efficient data querying
+- 📦 Deep dive into **Docker & Kubernetes**
+- 🤖 Exploring **AI/ML with Python**
+- 📲 Developing **Flutter apps** for mobile platforms
 
 ---
 
-## ✍️ Blog Posts
+## 💞️ Looking to Collaborate On
 
-- [Why TypeScript Changed My Life](https://dev.to/xr-wahyuu/why-typescript-changed-my-life-1k3f)
-- [How I Built My Portfolio in 7 Days](https://xr-wahyuu.github.io/blog/portfolio-in-7-days)
-- [The Real Struggle of Clean Code in JavaScript](https://hashnode.com/@xr-wahyuu)
-
-> 📚 More blogs coming soon at [xr-wahyuu.github.io/blog](https://xr-wahyuu.github.io/blog)
-
----
-
-## 📫 Let's Connect
-
-- 💼 [LinkedIn](https://linkedin.com/in/xr-wahyuu)
-- 🐦 [Twitter / X](https://twitter.com/xr_wahyuu)
-- 🧠 [Hashnode](https://hashnode.com/@xr-wahyuu)
-- 🌐 [Personal Website](https://xr-wahyuu.github.io)
-- 📮 Email: `wahyu.dev@example.com`
+- 🌐 **SaaS Applications** that solve real-world problems  
+- 🔗 Real-time tools like chats, dashboards, and monitoring systems  
+- ☁️ Cloud-native architecture with **AWS** & **containerization**
+- 📢 Open Source Projects that need contributors or maintainers
 
 ---
 
-## 🧭 Fun Facts
+## 🏅 Achievements & Certifications
 
-- 🕹️ I build games for fun using Phaser & Three.js
-- 🎧 Code with lo-fi & synthwave
-- 📱 Mobile-first mindset — 80% of users are mobile!
-- 🧩 Love solving logic puzzles and CTFs
+- ✅ **AWS Certified Developer – Associate**  
+- 🏆 **Top Contributor** on GitHub (500+ stars total)  
+- 🧠 **CodeWars 4 Kyu** – Solved 200+ coding challenges  
+- 🧑‍💻 **Hacktoberfest 2023 – Platinum Contributor**  
+- 🌍 **Top 100 Global Open-Source Contributor** (Community voted)
+
+---
+
+## 🎖️ Badges & Recognition
+
+- ![AWS Certified](https://img.shields.io/badge/AWS-Certified-orange?logo=amazonaws)
+- ![Hacktoberfest](https://img.shields.io/badge/Hacktoberfest-Platinum-blueviolet)
+- ![GitHub Star](https://img.shields.io/badge/GitHub-Top%20Contributor-brightgreen)
+- ![CodeWars](https://img.shields.io/badge/CodeWars-4%20kyu-red)
 
 ---
 
-> 🚀 This GitHub Page is just the surface. Dive deeper into my projects, and let’s build something amazing together.
+## 📫 How to Reach Me
+
+- 🌐 Portfolio: [xr-wahyuu.github.io](https://xr-wahyuu.github.io)
+- 💼 LinkedIn: [linkedin.com/in/wahyusudrajad](https://linkedin.com/in/wahyusudrajad)
+- 🐦 Twitter: [@wahyusudrajad](https://twitter.com/wahyusudrajad)
+- ✉️ Email: wahyusudrajad18@gmail.com
+- 😄 Pronouns: He/Him
 
 ---
+
+## ⚡ Fun Facts
+
+- 🧳 Avid traveler & explorer 🌍  
+- 📸 Hobbyist photographer  
+- ☕ Coffee nerd — always hunting for new brews  
+- 🐱 I talk to my cat like it's my startup partner
+
+---
+
+## 📈 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=xr-wahyuu&show_icons=true&theme=tokyonight" alt="Wahyu's GitHub Stats"/>
+  <br>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=xr-wahyuu&layout=compact&theme=tokyonight" alt="Top Languages"/>
+</p>
+
+---
+
+## 🐍 Animation Time
+
+<p align="center">
+  <img src="https://github.com/xr-wahyuu/xr-wahyuu/raw/output/github-contribution-grid-snake.svg" alt="snake animation" />
+</p>
+
+---
+
+## 🐾 Kawaii Friends in Code
+
+<p align="center">
+  <img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width="100"/>
+  <img src="https://media.giphy.com/media/l0HlQ7LRal6InWguk/giphy.gif" width="120"/>
+  <img src="https://media.giphy.com/media/mCRJDo24UvJMA/giphy.gif" width="100"/>
+  <img src="https://media.giphy.com/media/3oriO0OEd9QIDdllqo/giphy.gif" width="120"/>
+</p>
+
+---
+
+> ✨ “Code is like humor. When you have to explain it, it’s bad.” – Cory House  
+> 👏 Thanks for stopping by! Let’s build something together!
 
