@@ -6,20 +6,31 @@
   <title>xr-wahyuu | Full Stack Developer</title>
   <link href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <style>
-    * {
+    html, body {
       margin: 0;
       padding: 0;
-      box-sizing: border-box;
+      height: 100%;
+      font-family: 'Roboto', sans-serif;
+      overflow: hidden;
     }
 
-    body {
-      font-family: 'Roboto', sans-serif;
+    #particles-js {
+      position: absolute;
+      width: 100%;
+      height: 100%;
       background: #0f172a;
-      color: #f8fafc;
+      z-index: -1;
+    }
+
+    .content {
+      position: relative;
+      z-index: 1;
+      height: 100%;
       display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
-      height: 100vh;
+      color: #f8fafc;
       text-align: center;
       padding: 2rem;
     }
@@ -28,36 +39,12 @@
       font-size: 2.8rem;
       margin-bottom: 1rem;
       color: #38bdf8;
-      animation: fadeInDown 1s ease-out;
     }
 
     p {
       font-size: 1.2rem;
       color: #94a3b8;
       max-width: 600px;
-      animation: fadeInUp 1s ease-out;
-    }
-
-    @keyframes fadeInDown {
-      from {
-        opacity: 0;
-        transform: translateY(-20px);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-
-    @keyframes fadeInUp {
-      from {
-        opacity: 0;
-        transform: translateY(20px);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
     }
 
     footer {
@@ -78,16 +65,80 @@
   </style>
 </head>
 <body>
-  <div>
+  <!-- Background particles -->
+  <div id="particles-js"></div>
+
+  <!-- Content -->
+  <div class="content">
     <h1>Hello, I'm <span style="color: #facc15;">xr-wahyuu</span> 👋</h1>
     <p>
       Welcome to my personal GitHub Page 🚀<br>
       I’m a Full Stack Developer passionate about building cool things with code.<br><br>
       🌐 <a href="https://github.com/xr-wahyuu" target="_blank">View my GitHub profile</a>
     </p>
+    <footer>
+      &copy; 2025 xr-wahyuu. Built with 💻 and ☕
+    </footer>
   </div>
-  <footer>
-    &copy; 2025 xr-wahyuu. Built with 💻 and ☕
-  </footer>
+
+  <!-- Particles.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script>
+    particlesJS("particles-js", {
+      "particles": {
+        "number": {
+          "value": 80,
+          "density": {
+            "enable": true,
+            "value_area": 800
+          }
+        },
+        "color": { "value": "#38bdf8" },
+        "shape": {
+          "type": "circle",
+          "stroke": { "width": 0, "color": "#000000" },
+          "polygon": { "nb_sides": 5 }
+        },
+        "opacity": {
+          "value": 0.5,
+          "random": false,
+          "anim": { "enable": false }
+        },
+        "size": {
+          "value": 3,
+          "random": true,
+          "anim": { "enable": false }
+        },
+        "line_linked": {
+          "enable": true,
+          "distance": 150,
+          "color": "#94a3b8",
+          "opacity": 0.4,
+          "width": 1
+        },
+        "move": {
+          "enable": true,
+          "speed": 2,
+          "direction": "none",
+          "out_mode": "bounce"
+        }
+      },
+      "interactivity": {
+        "detect_on": "canvas",
+        "events": {
+          "onhover": { "enable": true, "mode": "grab" },
+          "onclick": { "enable": true, "mode": "push" }
+        },
+        "modes": {
+          "grab": {
+            "distance": 140,
+            "line_linked": { "opacity": 1 }
+          },
+          "push": { "particles_nb": 4 }
+        }
+      },
+      "retina_detect": true
+    });
+  </script>
 </body>
 </html>
