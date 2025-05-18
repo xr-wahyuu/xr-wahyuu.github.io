@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Mencegah zoom dan menjaga tampilan tetap -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <title>xr-wahyuu | Full Stack Developer</title>
   <link href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <style>
@@ -32,17 +33,17 @@
       align-items: center;
       color: #f8fafc;
       text-align: center;
-      padding: 2rem;
+      padding: 32px;
     }
 
     h1 {
-      font-size: 2.8rem;
-      margin-bottom: 1rem;
+      font-size: 36px; /* Ukuran tetap */
+      margin-bottom: 16px;
       color: #38bdf8;
     }
 
     p {
-      font-size: 1.2rem;
+      font-size: 16px; /* Ukuran tetap */
       color: #94a3b8;
       max-width: 600px;
     }
@@ -50,8 +51,11 @@
     footer {
       position: absolute;
       bottom: 20px;
-      font-size: 0.9rem;
-      color: #64748b;
+      width: 100%;
+      text-align: center;
+      font-size: 14px;
+      color: rgba(148, 163, 184, 0.7); /* transparan */
+      z-index: 1;
     }
 
     a {
@@ -76,10 +80,12 @@
       I’m a Full Stack Developer passionate about building cool things with code.<br><br>
       🌐 <a href="https://github.com/xr-wahyuu" target="_blank">View my GitHub profile</a>
     </p>
-    <footer>
-      &copy; 2025 xr-wahyuu. Built with 💻 and ☕
-    </footer>
   </div>
+
+  <!-- Footer -->
+  <footer>
+    Copyright &copy; xr-wahyuu. Built with 💻 and ☕
+  </footer>
 
   <!-- Particles.js CDN -->
   <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
