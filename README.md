@@ -97,7 +97,7 @@
 ## 🐍 Animation Time
 
 <p align="center">
-  <img src="https://github.com/xr-wahyuu/xr-wahyuu/blob/output/github-contribution-grid-snake.svg" alt="snake animation" />
+  <img src="https://github.com/Platane/Platane/blob/output/github-contribution-grid-snake.svg" alt="snake animation" />
 </p>
 
 ---
