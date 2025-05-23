@@ -6,81 +6,13 @@
 
 ---
 
-## 🏆 My Skills & Technologies
-
-### 👨‍💻 Languages
-📝 TypeScript | JavaScript | Python | Java | Dart
-
-### ⚛️ Frontend
-⚡ React | Next.js | Redux | Tailwind CSS | Material UI | Bootstrap
-
-### 🔧 Backend
-⚙️ Node.js | Express.js | FastAPI | Firebase | Socket.io
-
-### 🗃️ Databases
-💾 MongoDB | PostgreSQL | MySQL | Supabase
-
-### ☁️ Cloud & DevOps
-🐳 Docker | ☁️ AWS | Vercel | Netlify | Heroku | GitHub Actions
-
-### 💳 APIs & Integrations
-💳 Stripe | REST | GraphQL | WebSocket | OAuth
-
----
-
-## 🌱 Currently Learning
-
-- 🧠 Mastering **GraphQL** for efficient data querying
-- 📦 Deep dive into **Docker & Kubernetes**
-- 🤖 Exploring **AI/ML with Python**
-- 📲 Developing **Flutter apps** for mobile platforms
-
----
-
-## 💞️ Looking to Collaborate On
-
-- 🌐 **SaaS Applications** that solve real-world problems  
-- 🔗 Real-time tools like chats, dashboards, and monitoring systems  
-- ☁️ Cloud-native architecture with **AWS** & **containerization**
-- 📢 Open Source Projects that need contributors or maintainers
-
----
-
-## 🏅 Achievements & Certifications
-
-- ✅ **AWS Certified Developer – Associate**  
-- 🏆 **Top Contributor** on GitHub (500+ stars total)  
-- 🧠 **CodeWars 4 Kyu** – Solved 200+ coding challenges  
-- 🧑‍💻 **Hacktoberfest 2023 – Platinum Contributor**  
-- 🌍 **Top 100 Global Open-Source Contributor** (Community voted)
-
----
-
-## 🎖️ Badges & Recognition
-
-- ![AWS Certified](https://img.shields.io/badge/AWS-Certified-orange?logo=amazonaws)
-- ![Hacktoberfest](https://img.shields.io/badge/Hacktoberfest-Platinum-blueviolet)
-- ![GitHub Star](https://img.shields.io/badge/GitHub-Top%20Contributor-brightgreen)
-- ![CodeWars](https://img.shields.io/badge/CodeWars-4%20kyu-red)
-
----
-
 ## 📫 How to Reach Me
 
 - 🌐 Portfolio: [xr-wahyuu.github.io](https://xr-wahyuu.github.io)
-- 💼 LinkedIn: [linkedin.com/in/wahyusudrajad](https://linkedin.com/in/wahyusudrajad)
-- 🐦 Twitter: [@wahyusudrajad](https://twitter.com/wahyusudrajad)
+- 💼 LinkedIn: [linkedin.com/in/xr-wahyuu](https://xr-wahyuu.github.io/)
+- 🐦 Twitter: [@wahyusudrajad](https://xr-wahyuu.github.io/)
 - ✉️ Email: wahyusudrajad18@gmail.com
 - 😄 Pronouns: He/Him
-
----
-
-## ⚡ Fun Facts
-
-- 🧳 Avid traveler & explorer 🌍  
-- 📸 Hobbyist photographer  
-- ☕ Coffee nerd — always hunting for new brews  
-- 🐱 I talk to my cat like it's my startup partner
 
 ---
 
