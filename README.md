@@ -1,86 +1,44 @@
-# 🌐 Portofolio Interaktif - Wahyu Sudrajad
+# 👋 Halo, Saya Wahyu Sudrajad
 
-Selamat datang di portofolio interaktif saya! Dibangun dengan HTML, Tailwind CSS, dan Chart.js, proyek ini dirancang untuk menyajikan informasi secara terstruktur, modern, dan interaktif.
-
-## 🎯 Tujuan Proyek
-
-Tujuan utama dari proyek ini adalah menciptakan portofolio online yang **lebih hidup dan interaktif** daripada sekadar file `README.md` statis di GitHub. Dengan memanfaatkan teknologi web modern, saya mengubah daftar dan gambar menjadi **pengalaman pengguna yang terarah, visual, dan informatif**.
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&size=24&duration=2500&pause=1000&color=0A66C2&center=true&vCenter=true&multiline=true&width=600&height=60&lines=Full+Stack+Developer+%7C+Programmer+%7C+Tech+Enthusiast;Selamat+datang+di+portofolio+saya!" alt="Typing SVG" />
+</p>
 
 ---
 
-## 🧱 Struktur Halaman
+## 🚀 Tentang Saya
 
-Halaman ini dibagi menjadi 4 bagian utama:
+Saya adalah seorang **Full Stack Web Developer** yang berasal dari Indonesia 🇮🇩. Saya suka membangun aplikasi web yang:
+- 🔧 Fungsional
+- 🎨 Menarik
+- 🤝 Mudah digunakan
 
-### 1. 👋 Hero / Intro
-Bagian pembuka yang memperkenalkan saya sebagai **Full Stack Developer**, lengkap dengan bio singkat dan sentuhan personal seperti emoji dan gaya bahasa santai.
-
-### 2. 🛠️ Tech Stack
-Sebuah **grid bersih dan profesional** yang menampilkan bahasa, framework, dan tools yang saya gunakan, agar mudah dipindai oleh perekrut maupun kolaborator.
-
-### 3. 📈 GitHub Insights
-Menampilkan statistik GitHub dan **chart interaktif** dari bahasa pemrograman teratas saya:
-
-- Statistik menggunakan layanan: [github-readme-stats.vercel.app](https://github-readme-stats.vercel.app)
-- Chart horizontal menggunakan [Chart.js](https://www.chartjs.org)
-
-### 4. 📫 Kontak
-Bagian akhir yang menyajikan cara-cara untuk terhubung dengan saya, lengkap dengan ikon dan link langsung ke:
-
-- 🌐 Website
-- 💼 LinkedIn
-- 🐦 Twitter
-- ✉️ Email
+### ✨ Tech Stack
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![PHP](https://img.shields.io/badge/-PHP-777BB4?style=flat&logo=php&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
+![Laravel](https://img.shields.io/badge/-Laravel-F55247?style=flat&logo=laravel&logoColor=white)
+![Tailwind](https://img.shields.io/badge/-Tailwind_CSS-06B6D4?style=flat&logo=tailwind-css&logoColor=white)
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black)
 
 ---
 
-## 🧰 Teknologi yang Digunakan
+## 📂 Proyek Unggulan
 
-| Kategori   | Teknologi                          |
-|------------|------------------------------------|
-| UI         | HTML, Tailwind CSS, Google Fonts   |
-| Grafik     | Chart.js                           |
-| Dinamika   | JavaScript Vanilla                 |
-| Hosting    | GitHub Pages (disarankan)          |
-
----
-
-## 📊 Tampilan Chart
-
-Chart Bahasa Pemrograman disusun horizontal agar lebih mudah dibaca:
-- Disusun berdasarkan persentase penggunaan.
-- Tooltip interaktif untuk detail tambahan.
-- Warna lembut yang selaras dengan tema warm-neutral.
+| Proyek | Teknologi | Link |
+|--------|-----------|------|
+| Sistem Informasi Sekolah | PHP, MySQL, Tailwind | [Lihat Repo](#) |
+| Aplikasi Tugas Online | Laravel, Vue.js | [Lihat Repo](#) |
+| Kalender Digital Interaktif | JavaScript, FullCalendar | [Lihat Repo](#) |
 
 ---
 
-## 📱 Responsif
+## 📫 Kontak
 
-Portofolio ini **sepenuhnya responsif**, menggunakan utilitas dari Tailwind CSS. Navigasi berubah menjadi menu mobile saat diakses lewat perangkat kecil.
-
----
-
-## 🔗 Demo Langsung
-
-> 🌐 **[Lihat Portofolio Interaktif](https://xr-wahyuu.github.io)**
+- Email: **wahyusudrajad18@gmail.com**
+- LinkedIn: [linkedin.com/in/wahyusudrajad](https://linkedin.com/in/wahyusudrajad)
+- Website Portofolio: [wahyusudrajad.my.id](https://wahyusudrajad.my.id)
 
 ---
 
-## 📌 Catatan
-
-- Tidak menggunakan SVG custom atau Mermaid.js.
-- Tidak ada grafik statis; semua chart dibangun secara dinamis.
-- Bisa digunakan sebagai template bagi developer lain yang ingin membuat personal site berbasis GitHub Stats.
-
----
-
-## ❤️ Kontribusi & Lisensi
-
-Proyek ini bersifat pribadi, namun silakan gunakan ide dan struktur ini untuk proyek open-source atau pribadi Anda sendiri. 🙌
-
----
-
-**Dibuat dengan semangat oleh Wahyu Sudrajad**
-
-> Pronouns: He/Him  
-> Powered by ☕ & curiosity
+> Dibuat dengan ❤️ oleh Wahyu Sudrajad
