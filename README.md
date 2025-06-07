@@ -1,275 +1,86 @@
-<!DOCTYPE html>
-<html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio Interaktif - Wahyu Sudrajad</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
-    <!-- Chosen Palette: Warm Neutral Harmony -->
-    <!-- Application Structure Plan: The SPA is structured into four logical, navigable sections: 1. **Hero/Intro:** A welcoming section with a brief bio. 2. **Tech Stack:** A visually organized grid showcasing skills, making it easy for recruiters to scan. 3. **GitHub Insights:** An interactive section featuring GitHub stats and a dynamic chart for top languages, allowing users to see data more clearly than a static image. 4. **Contact:** A clear, actionable contact section. This structure is more engaging and user-friendly than a linear README, guiding the user through a narrative of skills, proof of work, and contact details. -->
-    <!-- Visualization & Content Choices: 
-        - **README Content -> Tech Stack:** Goal: Inform & Organize. Method: A styled multi-column grid using Tailwind CSS. Interaction: None, focus is on scannability. Justification: More professional and easier to parse than a simple bulleted list.
-        - **README Image -> GitHub Top Languages:** Goal: Compare & Inform. Method: Dynamic, horizontal bar chart using Chart.js. Interaction: Tooltips on hover provide exact percentages. Justification: An interactive chart is more engaging and provides more precise data than a static, themed image.
-        - **README Image -> GitHub Stats:** Goal: Inform. Method: Styled card mimicking the original, but using live text and icons. Justification: Maintains the feel of the original while being more accessible and fitting the site's theme.
-        - **README Content -> Contact Info:** Goal: Action. Method: Styled list with clear icons. Justification: Easy to identify and use.
-    -->
-    <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
-    <style>
-        body {
-            font-family: 'Inter', sans-serif;
-            background-color: #FDFDFD; /* Main light background */
-            color: #333333;
-        }
-        .chart-container {
-            position: relative;
-            width: 100%;
-            max-width: 600px;
-            margin-left: auto;
-            margin-right: auto;
-            height: 300px;
-            max-height: 400px;
-        }
-        .section-card {
-            background-color: #FFFFFF;
-            border: 1px solid #EAEAEA;
-            border-radius: 12px;
-            padding: 2rem;
-            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05), 0 2px 4px -2px rgb(0 0 0 / 0.05);
-        }
-        .nav-link {
-            transition: color 0.3s;
-        }
-        .nav-link:hover, .nav-link.active {
-            color: #D946EF; /* Accent color for hover/active */
-        }
-        html {
-            scroll-behavior: smooth;
-        }
-    </style>
-</head>
-<body class="antialiased">
-    <header class="bg-white/80 backdrop-blur-md sticky top-0 z-50 border-b border-gray-200">
-        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
-            <div class="text-xl font-bold tracking-tight">
-                Wahyu Sudrajad
-            </div>
-            <div class="hidden md:flex space-x-8">
-                <a href="#about" class="nav-link text-gray-600">Tentang Saya</a>
-                <a href="#stack" class="nav-link text-gray-600">Tech Stack</a>
-                <a href="#insights" class="nav-link text-gray-600">GitHub Insights</a>
-                <a href="#contact" class="nav-link text-gray-600">Kontak</a>
-            </div>
-            <button id="mobile-menu-button" class="md:hidden p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-500">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7" /></svg>
-            </button>
-        </nav>
-        <div id="mobile-menu" class="hidden md:hidden px-6 pb-4">
-            <a href="#about" class="nav-link-mobile block py-2 text-gray-600">Tentang Saya</a>
-            <a href="#stack" class="nav-link-mobile block py-2 text-gray-600">Tech Stack</a>
-            <a href="#insights" class="nav-link-mobile block py-2 text-gray-600">GitHub Insights</a>
-            <a href="#contact" class="nav-link-mobile block py-2 text-gray-600">Kontak</a>
-        </div>
-    </header>
+# 🌐 Portofolio Interaktif - Wahyu Sudrajad
 
-    <main class="container mx-auto p-6 md:p-8 space-y-16">
-        
-        <!-- Section: About Me -->
-        <section id="about" class="pt-16 text-center">
-            <h1 class="text-4xl md:text-5xl font-bold mb-4">👋 Halo, Saya Wahyu Sudrajad</h1>
-            <p class="max-w-3xl mx-auto text-lg text-gray-600">
-                Seorang <strong>Full Stack Developer</strong> yang bersemangat dalam membangun aplikasi web yang berkualitas tinggi, skalabel, dan ramah pengguna.
-                <br>
-                <span class="inline-block mt-2">🌍 Berbasis di Indonesia | ☕ Ditenagai oleh kopi | 💡 Didorong oleh rasa ingin tahu</span>
-            </p>
-        </section>
+Selamat datang di portofolio interaktif saya! Dibangun dengan HTML, Tailwind CSS, dan Chart.js, proyek ini dirancang untuk menyajikan informasi secara terstruktur, modern, dan interaktif.
 
-        <!-- Section: Tech Stack -->
-        <section id="stack" class="pt-16">
-            <div class="text-center mb-12">
-                <h2 class="text-3xl font-bold">🛠️ Tech Stack</h2>
-                <p class="text-gray-500 mt-2">Beberapa teknologi yang saya kuasai.</p>
-            </div>
-            <div class="section-card max-w-4xl mx-auto">
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 text-left">
-                    <div>
-                        <h3 class="font-bold text-lg mb-2">Bahasa</h3>
-                        <p class="text-gray-600">JavaScript, TypeScript, Python, PHP, HTML, CSS</p>
-                    </div>
-                    <div>
-                        <h3 class="font-bold text-lg mb-2">Frontend</h3>
-                        <p class="text-gray-600">React, Next.js, Vue.js, Tailwind CSS, Bootstrap, Material-UI</p>
-                    </div>
-                    <div>
-                        <h3 class="font-bold text-lg mb-2">Backend</h3>
-                        <p class="text-gray-600">Node.js (Express, NestJS), Python (Django, Flask), PHP (Laravel)</p>
-                    </div>
-                    <div>
-                        <h3 class="font-bold text-lg mb-2">Database</h3>
-                        <p class="text-gray-600">PostgreSQL, MySQL, MongoDB, Firebase Firestore</p>
-                    </div>
-                    <div class="md:col-span-2 lg:col-span-1">
-                        <h3 class="font-bold text-lg mb-2">Tools & Platform</h3>
-                        <p class="text-gray-600">Git, Docker, AWS, Netlify, Vercel, VS Code</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+## 🎯 Tujuan Proyek
 
-        <!-- Section: GitHub Insights -->
-        <section id="insights" class="pt-16">
-            <div class="text-center mb-12">
-                <h2 class="text-3xl font-bold">📈 GitHub Insights</h2>
-                <p class="text-gray-500 mt-2">Statistik dan bahasa yang paling sering saya gunakan di GitHub.</p>
-            </div>
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-                <div class="section-card">
-                    <h3 class="font-bold text-xl mb-4 text-center">Statistik Umum</h3>
-                    <img src="https://github-readme-stats.vercel.app/api?username=xr-wahyuu&show_icons=true&theme=default&hide_border=true" alt="Wahyu's GitHub Stats" class="mx-auto"/>
-                </div>
-                <div class="section-card">
-                     <h3 class="font-bold text-xl mb-4 text-center">Bahasa Teratas</h3>
-                    <div class="chart-container">
-                        <canvas id="topLangsChart"></canvas>
-                    </div>
-                </div>
-            </div>
-        </section>
+Tujuan utama dari proyek ini adalah menciptakan portofolio online yang **lebih hidup dan interaktif** daripada sekadar file `README.md` statis di GitHub. Dengan memanfaatkan teknologi web modern, saya mengubah daftar dan gambar menjadi **pengalaman pengguna yang terarah, visual, dan informatif**.
 
-        <!-- Section: Contact -->
-        <section id="contact" class="pt-16">
-            <div class="text-center mb-12">
-                <h2 class="text-3xl font-bold">📫 Hubungi Saya</h2>
-                <p class="text-gray-500 mt-2">Mari terhubung! Jangan ragu untuk menghubungi saya melalui platform berikut.</p>
-            </div>
-             <div class="section-card max-w-lg mx-auto">
-                <ul class="space-y-4">
-                    <li><a href="https://xr-wahyuu.github.io" target="_blank" class="flex items-center space-x-3 text-gray-700 hover:text-fuchsia-500 transition-colors">
-                        <span class="text-2xl">🌐</span><span>Portofolio: xr-wahyuu.github.io</span>
-                    </a></li>
-                    <li><a href="https://linkedin.com/in/xr-wahyuu" target="_blank" class="flex items-center space-x-3 text-gray-700 hover:text-fuchsia-500 transition-colors">
-                        <span class="text-2xl">💼</span><span>LinkedIn: linkedin.com/in/xr-wahyuu</span>
-                    </a></li>
-                    <li><a href="https://twitter.com/wahyusudrajad" target="_blank" class="flex items-center space-x-3 text-gray-700 hover:text-fuchsia-500 transition-colors">
-                        <span class="text-2xl">🐦</span><span>Twitter: @wahyusudrajad</span>
-                    </a></li>
-                    <li><a href="mailto:wahyusudrajad18@gmail.com" class="flex items-center space-x-3 text-gray-700 hover:text-fuchsia-500 transition-colors">
-                        <span class="text-2xl">✉️</span><span>Email: wahyusudrajad18@gmail.com</span>
-                    </a></li>
-                </ul>
-            </div>
-        </section>
+---
 
-    </main>
+## 🧱 Struktur Halaman
 
-    <footer class="text-center py-8 mt-16 border-t border-gray-200">
-        <p class="text-gray-500">Dibuat dengan ❤️ oleh Wahyu Sudrajad.</p>
-        <p class="text-sm text-gray-400 mt-2">Pronouns: He/Him</p>
-    </footer>
+Halaman ini dibagi menjadi 4 bagian utama:
 
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            // Mobile Menu Toggle
-            const mobileMenuButton = document.getElementById('mobile-menu-button');
-            const mobileMenu = document.getElementById('mobile-menu');
-            mobileMenuButton.addEventListener('click', () => {
-                mobileMenu.classList.toggle('hidden');
-            });
+### 1. 👋 Hero / Intro
+Bagian pembuka yang memperkenalkan saya sebagai **Full Stack Developer**, lengkap dengan bio singkat dan sentuhan personal seperti emoji dan gaya bahasa santai.
 
-            const mobileNavLinks = document.querySelectorAll('.nav-link-mobile');
-            mobileNavLinks.forEach(link => {
-                link.addEventListener('click', () => {
-                     if (!mobileMenu.classList.contains('hidden')) {
-                        mobileMenu.classList.add('hidden');
-                    }
-                });
-            });
+### 2. 🛠️ Tech Stack
+Sebuah **grid bersih dan profesional** yang menampilkan bahasa, framework, dan tools yang saya gunakan, agar mudah dipindai oleh perekrut maupun kolaborator.
 
-            // Active Nav Link on Scroll
-            const sections = document.querySelectorAll('section');
-            const navLinks = document.querySelectorAll('.nav-link');
+### 3. 📈 GitHub Insights
+Menampilkan statistik GitHub dan **chart interaktif** dari bahasa pemrograman teratas saya:
 
-            window.addEventListener('scroll', () => {
-                let current = '';
-                sections.forEach(section => {
-                    const sectionTop = section.offsetTop;
-                    if (pageYOffset >= sectionTop - 70) {
-                        current = section.getAttribute('id');
-                    }
-                });
+- Statistik menggunakan layanan: [github-readme-stats.vercel.app](https://github-readme-stats.vercel.app)
+- Chart horizontal menggunakan [Chart.js](https://www.chartjs.org)
 
-                navLinks.forEach(link => {
-                    link.classList.remove('active', 'font-bold');
-                    if (link.getAttribute('href').includes(current)) {
-                        link.classList.add('active', 'font-bold');
-                    }
-                });
-            });
+### 4. 📫 Kontak
+Bagian akhir yang menyajikan cara-cara untuk terhubung dengan saya, lengkap dengan ikon dan link langsung ke:
 
-            // Chart.js - Top Languages
-            const ctx = document.getElementById('topLangsChart').getContext('2d');
-            
-            // This data is an approximation based on the typical output of the GitHub Readme Stats 'top-langs' card.
-            const topLangsData = {
-                labels: ['JavaScript', 'TypeScript', 'PHP', 'Python', 'HTML'],
-                values: [45.5, 25.2, 15.8, 10.1, 3.4]
-            };
+- 🌐 Website
+- 💼 LinkedIn
+- 🐦 Twitter
+- ✉️ Email
 
-            new Chart(ctx, {
-                type: 'bar',
-                data: {
-                    labels: topLangsData.labels,
-                    datasets: [{
-                        label: 'Penggunaan Bahasa (%)',
-                        data: topLangsData.values,
-                        backgroundColor: [
-                            'rgba(241, 224, 90, 0.6)',
-                            'rgba(49, 120, 198, 0.6)',
-                            'rgba(119, 123, 179, 0.6)',
-                            'rgba(53, 114, 165, 0.6)',
-                            'rgba(227, 76, 38, 0.6)'
-                        ],
-                        borderColor: [
-                            'rgba(241, 224, 90, 1)',
-                            'rgba(49, 120, 198, 1)',
-                            'rgba(119, 123, 179, 1)',
-                            'rgba(53, 114, 165, 1)',
-                            'rgba(227, 76, 38, 1)'
-                        ],
-                        borderWidth: 1
-                    }]
-                },
-                options: {
-                    indexAxis: 'y',
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    plugins: {
-                        legend: {
-                            display: false
-                        },
-                        tooltip: {
-                            callbacks: {
-                                label: function(context) {
-                                    return `${context.dataset.label}: ${context.raw}%`;
-                                }
-                            }
-                        }
-                    },
-                    scales: {
-                        x: {
-                            beginAtZero: true,
-                            title: {
-                                display: true,
-                                text: 'Persentase Penggunaan'
-                            }
-                        }
-                    }
-                }
-            });
-        });
-    </script>
-</body>
-</html>
+---
+
+## 🧰 Teknologi yang Digunakan
+
+| Kategori   | Teknologi                          |
+|------------|------------------------------------|
+| UI         | HTML, Tailwind CSS, Google Fonts   |
+| Grafik     | Chart.js                           |
+| Dinamika   | JavaScript Vanilla                 |
+| Hosting    | GitHub Pages (disarankan)          |
+
+---
+
+## 📊 Tampilan Chart
+
+Chart Bahasa Pemrograman disusun horizontal agar lebih mudah dibaca:
+- Disusun berdasarkan persentase penggunaan.
+- Tooltip interaktif untuk detail tambahan.
+- Warna lembut yang selaras dengan tema warm-neutral.
+
+---
+
+## 📱 Responsif
+
+Portofolio ini **sepenuhnya responsif**, menggunakan utilitas dari Tailwind CSS. Navigasi berubah menjadi menu mobile saat diakses lewat perangkat kecil.
+
+---
+
+## 🔗 Demo Langsung
+
+> 🌐 **[Lihat Portofolio Interaktif](https://xr-wahyuu.github.io)**
+
+---
+
+## 📌 Catatan
+
+- Tidak menggunakan SVG custom atau Mermaid.js.
+- Tidak ada grafik statis; semua chart dibangun secara dinamis.
+- Bisa digunakan sebagai template bagi developer lain yang ingin membuat personal site berbasis GitHub Stats.
+
+---
+
+## ❤️ Kontribusi & Lisensi
+
+Proyek ini bersifat pribadi, namun silakan gunakan ide dan struktur ini untuk proyek open-source atau pribadi Anda sendiri. 🙌
+
+---
+
+**Dibuat dengan semangat oleh Wahyu Sudrajad**
+
+> Pronouns: He/Him  
+> Powered by ☕ & curiosity
